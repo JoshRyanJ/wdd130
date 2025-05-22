@@ -24,3 +24,7 @@ img {
 p {
     padding: 10px;
 }
+
+h4.clear-both {
+    background-color: blueviolet;
+}
