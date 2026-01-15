@@ -30,6 +30,10 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    border-bottom: 1px solid #222;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -50,4 +54,8 @@ section p {
 
 ul {
     margin: 10px 20px;
+}
+
+footer {
+    font-size: .9rem;
 }
