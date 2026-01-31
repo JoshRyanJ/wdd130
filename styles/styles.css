@@ -17,7 +17,7 @@ h1 {
     color: darkblue;
 }
 
-main img {
+img {
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -34,7 +34,7 @@ aside {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
-    background-color: #eee;
+    background-color: #eeeeee;
     color: #333;
     text-align: center;
 
@@ -50,7 +50,7 @@ main img {
     height: auto;
     border: #000;
     padding: 0;
-    box-shadow: none;
+    box-shadow: 0 0 30px gray;
 }
 
 footer {
