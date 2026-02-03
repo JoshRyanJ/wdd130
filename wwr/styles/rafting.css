@@ -3,9 +3,13 @@
   --accent1-color: #e9c46a;
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
+  --text-dark: #2c2c2c;
+  --text-light: #ffffff;
 }
 
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,11 +17,11 @@
 
 body {
   font-family: var(--body-font);
-  color: var(--accent1-color);
+  color: var(--text-dark);
 }
 
 .small-logo {
-  max-width: 50px;
+  max-width: 60px;
   height: auto;
 }
 
@@ -30,7 +34,7 @@ footer {
 
 header {
   background-color: var(--primary-color);
-  color: var(--accent1-color);
+  color: var(--text-light);
 }
 
 h1,
@@ -49,7 +53,7 @@ article {
 
 footer {
   background-color: var(--primary-color);
-  color: var(--accent1-color);
+  color: var(--text-light);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -100,16 +104,15 @@ h1 {
   width: 100%;
   padding: 16px;
   text-align: center;
-  opacity: 0.7;
-  background-color: var(--accent1-color);
-  color: #fff;
+  background-color: var(--primary-color);
+  color: var(--text-light);
 }
 
 .hero article {
   position: absolute;
   bottom: 20px;
   right: 20px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.95);
   padding: 16px;
   max-width: 300px;
 }
@@ -159,7 +162,7 @@ h1 {
 .adventures {
   padding: 32px 16px;
   margin-top: 24px;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .adventures h2 {
