@@ -18,6 +18,13 @@ body {
   color: var(--accent1-color);
 }
 
+.small-logo {
+  max-width: 30px;
+  height: auto;
+
+
+}
+
 header,
 main,
 footer {
