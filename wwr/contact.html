@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact JR Water Rafting Company">
+    <meta name="author" content="Josiah Ryan Ofosuhene">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Contact Us | JR Water Rafting</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/z-raftingbw.png" alt="logo" class="small-logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="company-info">
+            <h1>White Water Rafting Company</h1>
+            <address>
+                <p>123 Main River Street</p>
+                <p>Montgomery village, Alabama</p>
+                <p><a href="tel:+233595620692">+233595620692</a></p>
+                <p><a href="mailto:info@JRwhitewater.com">info@JRwhitewater.com</a></p>
+            </address>
+        </section>
+
+        <div class="contact-container">
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.9537363159042!3d-37.81720974201445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sau!4v1234567890123!5m2!1sen!2sau"
+                    width="600" height="450" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+            <form class="contact-form">
+                <fieldset>
+                    <legend>Contact Information</legend>
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Message Purpose</legend>
+
+                    <label>
+                        <input type="radio" name="purpose" value="general" checked>
+                        General Inquiry
+                    </label>
+
+                    <label>
+                        <input type="radio" name="purpose" value="reservation">
+                        Reservation Question
+                    </label>
+
+                    <label>
+                        <input type="radio" name="purpose" value="website">
+                        Website Suggestion
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Your Message</legend>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Type here" required></textarea>
+
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="newsletter" value="yes">
+                        Please subscribe me to the monthly newsletter
+                    </label>
+                </fieldset>
+
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </div>
+
+
+        <section class="employees">
+            <h2>Our Team</h2>
+            <div class="employee-grid">
+                <figure>
+                    <img src="images/Josiah-Headshot.jpg" alt="Josiah Ryan">
+                    <figcaption>
+                        <strong>Josiah Ryan</strong><br>
+                        General Manager
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/staff-1.jpg" alt="Ryan Josiah">
+                    <figcaption>
+                        <strong>Ryan Josiah</strong><br>
+                        Lead Guide
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Josiah-Headshot.jpg" alt="Josh Ryan">
+                    <figcaption>
+                        <strong>Josh Ryan</strong><br>
+                        Customer Service Director
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 JR Rafting Company - Josiah Ryan Ofosuhene</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/icon-facebook.png" alt="Facebook Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/icon-linkedin.png" alt="LinkedIn Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/icon-instagram.png" alt="Instagram Icon">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
