@@ -7,7 +7,7 @@
     <meta name="description" content="A water Rafting website to book a water rafting adventure">
     <meta name="author" content="Josiah Ryan Ofosuhene">
     <link rel="stylesheet" href="styles/rafting.css">
-    <title>About Us | JR Water Rafting</title>
+    <title>Contact us | JR Water Rafting</title>
 </head>
 
 <body>
@@ -66,6 +66,58 @@
                 </figure>
             </div>
         </section>
+        <main>
+            <div class="company-info">
+                <h1>Contact Us</h1>
+            </div>
+
+            <div class="contact-container">
+                <form class="contact-form">
+
+                    <fieldset>
+                        <legend>Your Details</legend>
+
+                        <label for="full-name">Full Name</label>
+                        <input type="text" id="full-name" name="full_name" placeholder="Yaw Antwi" />
+
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5"
+                            placeholder="Write your message here..."></textarea>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Preferred Contact Method</legend>
+
+                        <label>
+                            <input type="radio" id="contact-email" name="contact_method" value="email" />
+                            Email
+                        </label>
+
+                        <label>
+                            <input type="radio" id="contact-phone" name="contact_method" value="phone" />
+                            Phone
+                        </label>
+
+                        <label>
+                            <input type="radio" id="contact-mail" name="contact_method" value="mail" />
+                            Mail
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Confirmation</legend>
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="agree" name="agree" />
+                            I agree to the terms and conditions
+                        </label>
+                    </fieldset>
+
+                    <button type="submit">Send My Message</button>
+
+                </form>
+            </div>
+        </main>
+
 
     </main>
     <footer>
