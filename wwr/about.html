@@ -25,10 +25,10 @@
 
     <main>
         <div class="hero">
-            <img src="images/rafting-pict.jpg" alt="rafting adventure">
+            <img src="images/rafting-pict.jpg" alt="Rafting adventure on a rushing river">
             <h1>JR Water Rafting Company</h1>
             <article>
-                <img src="images/rafting-client.jpg" alt="happy client">
+                <img src="images/rafting-client.jpg" alt="Happy rafting client">
                 <p>This is a little bit about The JR Water Rafting Company</p>
             </article>
         </div>
@@ -36,8 +36,11 @@
         <section class="history">
             <h2>History</h2>
             <div class="history-content">
-                <p>Here's a little bit about us... We have been in business for a whooping 20 years. We are have a total
-                    of 15 locations world wide, 10 in the US and 5 in Africa</p>
+                <p>Here's a little bit about us... We have been in business for a whopping 20 years. We have a total
+                    of 15 locations world wide, 10 in the US and 5 in Africa.</p>
+                <img src="images/rafting19_600.jpg" alt="JR Rafting team on the water">
+                <p>From our humble beginnings on a single river to a global operation, JR Water Rafting has always
+                    put safety, adventure, and unforgettable experiences at the heart of everything we do.</p>
             </div>
         </section>
 
@@ -66,60 +69,75 @@
                 </figure>
             </div>
         </section>
-        <main>
-            <div class="company-info">
-                <h1>Contact Us</h1>
+
+        <div class="company-info">
+            <h2>Contact Us</h2>
+            <address>
+                <p> Montgomery village Alabama</p>
+                <p>Phone: <a href="tel:+233595620692">+233 59 562 0692</a></p>
+                <p>Email: <a href="mailto:info@jrrafting.com">info@jrrafting.com</a></p>
+            </address>
+        </div>
+
+        <div class="contact-container">
+
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3054.0!2d-105.2705!3d40.015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDAwJzU0LjAiTiAxMDXCsDE2JzEzLjgiVw!5e0!3m2!1sen!2sus!4v1600000000000"
+                    title="JR Water Rafting location map" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
 
-            <div class="contact-container">
-                <form class="contact-form">
+            <form class="contact-form" action="#" method="post">
 
-                    <fieldset>
-                        <legend>Your Details</legend>
+                <fieldset>
+                    <legend>Your Details</legend>
 
-                        <label for="full-name">Full Name</label>
-                        <input type="text" id="full-name" name="full_name" placeholder="Yaw Antwi" />
+                    <label for="full-name">Full Name</label>
+                    <input type="text" id="full-name" name="full_name" placeholder="Yaw Antwi" />
 
-                        <label for="message">Your Message</label>
-                        <textarea id="message" name="message" rows="5"
-                            placeholder="Write your message here..."></textarea>
-                    </fieldset>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" />
 
-                    <fieldset>
-                        <legend>Preferred Contact Method</legend>
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here..."></textarea>
+                </fieldset>
 
-                        <label>
-                            <input type="radio" id="contact-email" name="contact_method" value="email" />
-                            Email
-                        </label>
+                <fieldset>
+                    <legend>Preferred Contact Method</legend>
 
-                        <label>
-                            <input type="radio" id="contact-phone" name="contact_method" value="phone" />
-                            Phone
-                        </label>
+                    <label>
+                        <input type="radio" id="contact-email" name="contact_method" value="email" />
+                        Email
+                    </label>
 
-                        <label>
-                            <input type="radio" id="contact-mail" name="contact_method" value="mail" />
-                            Mail
-                        </label>
-                    </fieldset>
+                    <label>
+                        <input type="radio" id="contact-phone" name="contact_method" value="phone" />
+                        Phone
+                    </label>
 
-                    <fieldset>
-                        <legend>Confirmation</legend>
-                        <label class="checkbox-label">
-                            <input type="checkbox" id="agree" name="agree" />
-                            I agree to the terms and conditions
-                        </label>
-                    </fieldset>
+                    <label>
+                        <input type="radio" id="contact-mail" name="contact_method" value="mail" />
+                        Mail
+                    </label>
+                </fieldset>
 
-                    <button type="submit">Send My Message</button>
+                <fieldset>
+                    <legend>Confirmation</legend>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="agree" name="agree" />
+                        I agree to the terms and conditions
+                    </label>
+                </fieldset>
 
-                </form>
-            </div>
-        </main>
+                <button type="submit">Send My Message</button>
 
+            </form>
+        </div>
 
     </main>
+
     <footer>
         <p>&copy; 2026 JR Rafting Company - Josiah Ryan Ofosuhene</p>
         <nav class="socialmedia">

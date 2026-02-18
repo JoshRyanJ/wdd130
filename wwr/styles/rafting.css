@@ -48,14 +48,34 @@ article {
   padding: 8px;
 }
 
-.small-logo {
-  max-width: 60px;
-  height: auto;
-}
-
 header {
   background-color: var(--primary-color);
   color: var(--text-light);
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  padding: 8px 0;
+}
+
+header nav ul li a {
+  color: var(--text-light);
+  text-decoration: none;
+  font-weight: bold;
+  font-family: var(--heading-font);
+}
+
+header nav ul li a:hover,
+header nav ul li a:focus {
+  text-decoration: underline;
+  opacity: 0.85;
+}
+
+.small-logo {
+  max-width: 60px;
+  height: auto;
 }
 
 footer {
@@ -136,10 +156,6 @@ footer p {
   text-align: center;
   font-size: 1.8rem;
   margin-bottom: 24px;
-}
-
-.features h2 {
-  margin-bottom: 32px;
 }
 
 .newsletter-form input:focus,
@@ -288,6 +304,10 @@ footer p {
   margin: 24px 16px;
   background-color: var(--bg-light);
   border-radius: 8px;
+}
+
+.features h2 {
+  margin-bottom: 32px;
 }
 
 .features-grid {
@@ -504,7 +524,7 @@ footer p {
   background-color: var(--bg-light);
 }
 
-.company-info h1 {
+.company-info h2 {
   margin-bottom: 16px;
 }
 
@@ -525,11 +545,6 @@ footer p {
 
 .company-info a:hover {
   text-decoration: underline;
-}
-
-.contact-form-only {
-  max-width: 600px;
-  margin: 32px auto;
 }
 
 .contact-container {
@@ -660,10 +675,22 @@ footer p {
 
 @media (max-width: 768px) {
 
+  header,
+  main,
+  footer {
+    width: 100%;
+  }
+
   .contact-container,
   .employee-grid,
   .features-grid,
-  .trip-card {
+  .trip-card,
+  .history-content {
     grid-template-columns: 1fr;
+  }
+
+  header nav ul {
+    flex-wrap: wrap;
+    gap: 12px;
   }
 }
